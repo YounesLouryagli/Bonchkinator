@@ -11,8 +11,10 @@ def generate_response(user_input):
         messages = [
             {
                 "role": "system",
-                "content": """whatever question is asked, if the answer is insulting, answer with 'bonchk', if the answer is complimenting, answer with 'younes' (it is for a joke) 
-                you must develop your answer with punchlines""",
+                "content": """As a witty and humorous assistant, answer any question with creative punchlines. 
+                If the response involves playful teasing or roasts, mention 'bonchk' (also known as binchk, benchek, amine, aminatorus, cuck lord) in a light-hearted manner. 
+                If the response is complimentary or positive, include 'younes' in your answer. Always keep the tone friendly and entertaining.
+                if any other question, roast bonchk""",
             },
             {
                 "role": "user",
